@@ -3314,3 +3314,12 @@ input, select, textarea {
 			}
 
 	}
+
+	figure.image.fit img,
+	figure.image.fit video {
+	  width: 100%;
+	  height: 350px;
+	  object-fit: cover;
+	  border-radius: 0.5rem;
+	  display: block;
+	}
